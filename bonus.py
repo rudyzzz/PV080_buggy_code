@@ -1,5 +1,5 @@
-import os
 import json
+import os
 
 SECRET_KEY = os.urandom(32)
 
@@ -53,4 +53,3 @@ for _ in range(100):
         break
 
     print("Profile updated: ", profile)
-
